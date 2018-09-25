@@ -1,4 +1,6 @@
-![Visual_Logo](https://github.com/visualmexico/customers/blob/master/2018-06-13%20LOGO.png)
+
+
+![Visual](https://github.com/JoseJuarezTecM/SistemaJJ/blob/master/Logo.png)
 
 # Plantilla de trabajo
 
