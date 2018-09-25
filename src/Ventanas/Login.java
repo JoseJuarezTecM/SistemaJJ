@@ -1,13 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/*
- * Login.java
- *
- * Created on 16/06/2014, 09:03:55 AM
- */
 package Ventanas;
 
 import java.awt.Image;
@@ -71,7 +62,7 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jButtonModificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 270, -1, -1));
 
         jButtonAcceder.setBackground(new java.awt.Color(0, 51, 102));
-        jButtonAcceder.setFont(new java.awt.Font("Tahoma", 1, 18));
+        jButtonAcceder.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButtonAcceder.setForeground(new java.awt.Color(255, 255, 255));
         jButtonAcceder.setText("LOGIN");
         jButtonAcceder.addActionListener(new java.awt.event.ActionListener() {
@@ -81,22 +72,22 @@ public class Login extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonAcceder, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 245, 120, 40));
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14));
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Password:");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14));
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Usuario:");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12));
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Ingresa tu nombre de usuario y contraseña para tu acceso.");
+        jLabel2.setText("Ingresa tu nombre de usuario y contraseña.");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 380, 30));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36));
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Login");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 110, 50));
@@ -138,7 +129,7 @@ public class Login extends javax.swing.JFrame {
             }
 
         } catch (Exception e) {
-            //JOptionPane.showMessageDialog(null, "Error " + e);
+            JOptionPane.showMessageDialog(null, "Error " + e);
             System.out.println(e);
         }
     }//GEN-LAST:event_jButtonAccederActionPerformed

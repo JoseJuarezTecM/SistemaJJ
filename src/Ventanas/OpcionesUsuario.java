@@ -1,13 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/*
- * OpcionesUsuario.java
- *
- * Created on 29/06/2014, 03:47:49 PM
- */
 package Ventanas;
 
 import com.itextpdf.awt.geom.Dimension;
@@ -77,11 +68,11 @@ public class OpcionesUsuario extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24));
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Opciones de Usuario");
 
-        jButtonListaBrother.setText("Imprimir Lista de Equipos Brother");
+        jButtonListaBrother.setText("Imprimir Lista de servicios");
         jButtonListaBrother.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonListaBrotherActionPerformed(evt);
@@ -104,7 +95,7 @@ public class OpcionesUsuario extends javax.swing.JFrame {
             }
         });
 
-        jButtonListaNoReparados.setText("Imprimir Lista de Equipos no reparados");
+        jButtonListaNoReparados.setText("Imprimir Lista de servicios no generados");
         jButtonListaNoReparados.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonListaNoReparadosActionPerformed(evt);

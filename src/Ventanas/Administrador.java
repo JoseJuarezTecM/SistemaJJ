@@ -1,13 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
- * Administrador.java
- *
- * Created on 19/06/2014, 11:28:02 PM
- */
 package Ventanas;
 
 import java.awt.Color;
@@ -74,6 +64,11 @@ public class Administrador extends javax.swing.JFrame {
         });
 
         CMBNivel.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Administrador", "Tecnico", "Usuario" }));
+        CMBNivel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CMBNivelActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -155,6 +150,10 @@ public class Administrador extends javax.swing.JFrame {
         txtPassword.setText("");
 
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void CMBNivelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CMBNivelActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CMBNivelActionPerformed
 
     /**
      * @param args the command line arguments

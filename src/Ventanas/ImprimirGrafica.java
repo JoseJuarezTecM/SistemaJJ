@@ -1,13 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/*
- * ImprimirGrafica.java
- *
- * Created on 30/06/2014, 01:15:28 PM
- */
 package Ventanas;
 
 import com.itextpdf.text.Chunk;

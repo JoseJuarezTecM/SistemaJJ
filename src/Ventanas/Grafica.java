@@ -1,13 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/*
- * Ventana.java
- *
- * Created on 18/06/2014, 03:39:38 AM
- */
 package Ventanas;
 
 import java.awt.Dimension;

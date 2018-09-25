@@ -1,13 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
- * CambiarPassword.java
- *
- * Created on 30/06/2014, 09:27:32 AM
- */
 package Ventanas;
 
 import java.awt.Color;

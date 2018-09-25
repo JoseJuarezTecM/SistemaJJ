@@ -1,13 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/*
- * Usuario.java
- *
- * Created on 19/06/2014, 11:30:13 PM
- */
 package Ventanas;
 
 import java.awt.Image;
@@ -139,10 +130,10 @@ public class Tecnico extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(204, 204, 255));
-        jLabel4.setText("neto376@hotmail.com");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 50, -1, -1));
+        jLabel4.setText("jjuarez@visualmexico.com.mx");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Nombre del Cliente:");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, -1, -1));
@@ -151,16 +142,16 @@ public class Tecnico extends javax.swing.JFrame {
         txtNombreCliente.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(txtNombreCliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 250, 220, 30));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24));
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 204, 255));
-        jLabel1.setText("Global System");
+        jLabel1.setText("Visual System");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
 
         txtBuscar.setBackground(new java.awt.Color(0, 51, 102));
         txtBuscar.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(txtBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, 170, 30));
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Telefono:");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 300, -1, -1));
@@ -169,12 +160,12 @@ public class Tecnico extends javax.swing.JFrame {
         txtTelefono.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(txtTelefono, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 320, 220, 30));
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 21));
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 21)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(204, 204, 255));
-        jLabel2.setText("Sistema de registro para el control de sus clientes");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 20, -1, -1));
+        jLabel2.setText("Sistema de registro para el control de clientes y servicios");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 10, -1, -1));
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("E-m@il:");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
@@ -184,7 +175,7 @@ public class Tecnico extends javax.swing.JFrame {
         getContentPane().add(txtMail, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, 220, 30));
         getContentPane().add(jLabelLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 120, 100));
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Dirección:");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 440, -1, -1));
@@ -197,15 +188,15 @@ public class Tecnico extends javax.swing.JFrame {
         txtDireccion.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(txtDireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 460, 220, 30));
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setText("Tipo de equipo:");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 130, -1, -1));
+        jLabel9.setText("Tipo de servicio:");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 120, -1, -1));
 
-        jLabel10.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel10.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setText("Fecha ingreso:");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 130, -1, -1));
+        jLabel10.setText("Fecha solicitud:");
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 120, -1, -1));
 
         CMBdia.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
         getContentPane().add(CMBdia, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 120, -1, -1));
@@ -228,9 +219,9 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel13.setText("AAAA");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 100, -1, -1));
 
-        jLabel15.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel15.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel15.setText("Marca:");
+        jLabel15.setText("Tipo:");
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 180, -1, -1));
 
         txtNumDeSerie.setBackground(new java.awt.Color(0, 51, 102));
@@ -241,9 +232,9 @@ public class Tecnico extends javax.swing.JFrame {
         txtModelo.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(txtModelo, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 220, 110, 30));
 
-        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel16.setText("Modelo:");
+        jLabel16.setText("Depto:");
         getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 230, -1, -1));
 
         txtID.setBackground(new java.awt.Color(0, 51, 102));
@@ -251,17 +242,22 @@ public class Tecnico extends javax.swing.JFrame {
         txtID.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(txtID, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 220, 110, 30));
 
-        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("ID:");
         getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 230, -1, -1));
 
-        jLabel19.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel19.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel19.setText("Probable Fecha de Salida:");
-        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 280, -1, -1));
+        jLabel19.setText("Probable Fecha de Entrega:");
+        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 270, -1, -1));
 
-        CMBequipo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Impresora", "Multifuncional", "Computadora" }));
+        CMBequipo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Soporte", "Consultoría", "Desarrollo", "Licencias", "Mantenimiento" }));
+        CMBequipo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CMBequipoActionPerformed(evt);
+            }
+        });
         getContentPane().add(CMBequipo, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 120, -1, -1));
 
         jScrollPane1.setViewportView(txtpaneObservaciones);
@@ -281,10 +277,10 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel20.setText("DD");
         getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 300, -1, -1));
 
-        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel14.setText("Número Serie:");
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 180, -1, -1));
+        jLabel14.setText("Número servicio:");
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 180, -1, -1));
 
         jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setText("MM");
@@ -294,9 +290,9 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel22.setText("AAAA");
         getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 300, -1, -1));
 
-        jLabel18.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel18.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel18.setText("Daño reportado y Observaciones:");
+        jLabel18.setText("Reporte y Observaciones:");
         getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 330, -1, -1));
 
         jButtonGuardar.setBackground(new java.awt.Color(0, 51, 102));
@@ -340,7 +336,7 @@ public class Tecnico extends javax.swing.JFrame {
         getContentPane().add(jButtonEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 420, -1, -1));
 
         jButton5.setBackground(new java.awt.Color(0, 51, 102));
-        jButton5.setFont(new java.awt.Font("Tahoma", 1, 14));
+        jButton5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Opciones");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -356,7 +352,7 @@ public class Tecnico extends javax.swing.JFrame {
 
         getContentPane().add(CMBID, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 200, -1, -1));
 
-        txtStatus.setText("No Reparado");
+        txtStatus.setText("No entregado");
         getContentPane().add(txtStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 350, 100, -1));
 
         jButton2.setText("Cambiar Status");
@@ -654,6 +650,10 @@ public class Tecnico extends javax.swing.JFrame {
         }        
         
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void CMBequipoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CMBequipoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CMBequipoActionPerformed
 
     /**
      * @param args the command line arguments
