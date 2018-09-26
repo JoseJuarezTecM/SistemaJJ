@@ -82,29 +82,65 @@ Repositorio código fuente GitHub
   
   Equipo
   Disco local c:
-  archivos de programa
-  Java
-  jdk1.8.0_152 o la ultima versión que se maneje
-  ingresar al bin
-  copiar liga que aparece en la parte superior
-  Ir a equipo
-  Propiedades
-  Configuración avanzada del sistema
-  Variables de entorno
-  variables del sistema
-  buscar la que dice Path
-  Dar clic en editar
-  Con la flechas del teclado, posicionarnos hasta el final colocar un punto y coma
-  Pegamos la liga copiada anteriormente
-  Aceptar, Aceptar
-  Abrir CMD y colocar lo siguiente javac -version, esto para revisar que se configuro correctamente el jdk
+  archivos de programa.
+  Java.
+  jdk1.8.0_152 o la ultima versión que se maneje.
+  ingresar al bin.
+  copiar liga que aparece en la parte superior.
+  Ir a equipo.
+  Propiedades.
+  Configuración avanzada del sistema.
+  Variables de entorno.
+  variables del sistema.
+  buscar la que dice Path.
+  Dar clic en editar.
+  Con la flechas del teclado, posicionarnos hasta el final colocar un punto y coma.
+  Pegamos la liga copiada anteriormente.
+  Aceptar, Aceptar.
+  Abrir CMD y colocar lo siguiente javac -version, esto para revisar que se configuro correctamente el jdk.
   
   
-
 ## Uso :green_book:
 
-* ### Titulo 3
-  Descripción
+* ### Manual de usuarios
+
+* ### Pantalla de acceso.
+
+El sistema de registro, nos muestra la siguiente información, para entrar al sistema hay que dar click en el botón de “acceder al sistema”.
+
+* ### Login 
+En la siguiente pantalla que se muestra, debe de ingresar el usuario y password  para poder entrar al sistema de registro, el usuario y password será predeterminado por el administrador.
+
+* ### Pantalla de Usuario (vista de usuario)
+
+En esta pantalla se capturan los datos del equipo que se desea reparar,  en la cual se llenaran los campos establecidos por el sistema para la mejor gestión de datos de la empresa. En esta interfaz se proporciona diferentes opciones como es guardar un nuevo usuario, eliminar un campo o dato erróneo del usuario se validan también que tipo de servicios solicito el cliente, esto con el fin de llevar un mejor control de validación.
+Se deben de llenar todos los campos establecidos como; nombre del cliente, teléfono, e-mail, dirección, tipo de servicio, número de servicio, depto que realizara el servicio, fecha de solicitud, marca, fecha probable de entrega y observaciones o reporte. 
+
+* ### Pantalla de opciones de usuarios.
+
+Esta pantalla aparecerá dando clic en opciones, esta nos muestra las diferentes opciones que tiene el usuario las cuales son:
+•	Imprimir tabla de clientes (muestra todos los clientes registrados). 
+•	Imprimir lista de servicios (muestra todos los servicios que se están ejecutando).
+•	Imprimir lista de servicios no generados (muestra una lista de todos los servicios que aún no han sido entregados a los clientes).
+•	Crear e imprimir gráfica (nos crea un grafica realizada con las estadísticas de los servicios entregados y no entregados).
+Al igual de las opciones de regresar a la pantalla anterior y de cerrar sesión.
+
+* ### Pantalla de Técnico (vista de técnico o consultor)
+
+Esta pantalla al igual que la pantalla de usuario nos muestra y realiza la captura de los datos del servicio que se va a brindar al cliente, en la cual se llenaran los campos establecidos por el sistema para la mejor gestión de datos de la empresa. En esta interfaz se proporciona diferentes opciones como es guardar un nuevo usuario, eliminar un campo o dato erróneo del usuario se validan también que tipo de servicio y que depto está asignado esto con el fin de llevar un mejor control de validación.
+Se deben de llenar todos los campos establecidos como; nombre del cliente, teléfono, e-mail, dirección, tipo de servicio, número de servicio, depto, fecha de solicitud, ID, fecha probable de entrega y observaciones o reporte.   
+La diferencia de la vista de usuario a la vista de técnico o consultor, es que el técnico puede modificar si el servicio ya se encuentra entregado o en proceso, además de poder describir lo que realizo en la visita con él cliente.
+
+* ### Pantalla de Administrador
+
+Esta es la vista y pantalla del administrador, la cual le permite agregar nuevos usuarios, administradores, consultores o técnicos. Este tiene el manejo de todo el sistema, puede modificar los datos que se encuentren.  
+El botón del área técnica, le permite modificar los datos de los servicios que se han solicitado.
+
+* ### Recuperación de password.
+
+Esta pantalla consiste en recuperar la contraseña del usuario, la cual consiste en ingresar el nombre del usuario y automáticamente se recupera el password dando clic en el botón “Buscar”.
+El botón de Login te regresa automáticamente a la pantalla de Login.
+
 
 ## Contribución :orange_book:
 
