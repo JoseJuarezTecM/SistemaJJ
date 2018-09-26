@@ -29,7 +29,7 @@
 
 * ### Arquitectura
 
-Aplicación Visual System
+Aplicación Visual System (Escritorio y Multiplataforma)
 
 Elaborado en NetBeans IDE 8.2
 
@@ -42,18 +42,64 @@ Repositorio código fuente GitHub
 
 ## Requerimientos :green_book:
 
-* ### Titulo 3
-  Descripción
-
+* ### Servidores de aplicación, web, bases de datos
+ 
+ NetBeans IDE 8.2
+ Base de datos SQL Server (Servidor de Base de Datos)
+ 
+ * ### Paquetes adicionales
+ 
+ No aplica
+ 
+  * ### Versión de Java
+  
+  Version 8 Update 181
+ 
+ 
 ## Instalación :orange_book:
 
-* ### Titulo 3
-  Descripción
+  El software tendrá un ejecutable que se podrá correr en cualquier sistema de computo, ya sea Windows, IOS, Linux, etc, ya que 
+  esta fabricado en código Java, cada usuario tendrá acceso al servidor donde estará instalado el programa, esto con el fin de
+  que todo lo que se modifique del sistema este en una sola base de datos.
   
+  Las pruebas se podrán ejecutar manualmente por cada usuario ya que cada uno de ellos tendrá el mismo ejecutable, esto con el 
+  fin de que cada usuario pueda practicar y entender como se maneja el sistema.
+  
+  Como lo mencione anteriormente el sistema se ejecutara en un servidor de la empresa que se tiene con Amazon y todos los usuarios
+  que van a tener acceso a el se conectaran por medio de una VPN y del escritorio remoto, por supuesto las personas de sistemas se
+  encargarán de hacer dichas instalaciones y configuraciones en cada una de la maquinas de los usuarios.
+    
 ## Configuración :blue_book:
 
-* ### Descripción
-  Descripción
+* ### Configuración del producto (archivos de configuración)
+  
+  Los archivos que se necesitaran son:
+  
+  SQL Server versión 2008 o superior
+  Java JDK, SDK y Environment.
+  
+  Se deberán instalar los tres Java y realizar la siguiente configuración.
+  
+  Equipo
+  Disco local c:
+  archivos de programa
+  Java
+  jdk1.8.0_152 o la ultima versión que se maneje
+  ingresar al bin
+  copiar liga que aparece en la parte superior
+  Ir a equipo
+  Propiedades
+  Configuración avanzada del sistema
+  Variables de entorno
+  variables del sistema
+  buscar la que dice Path
+  Dar clic en editar
+  Con la flechas del teclado, posicionarnos hasta el final colocar un punto y coma
+  Pegamos la liga copiada anteriormente
+  Aceptar, Aceptar
+  Abrir CMD y colocar lo siguiente javac -version, esto para revisar que se configuro correctamente el jdk
+  
+  
 
 ## Uso :green_book:
 
