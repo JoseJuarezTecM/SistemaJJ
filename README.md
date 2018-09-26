@@ -4,22 +4,48 @@
 
 # Plantilla de trabajo
 
-## Desarrollos :blue_book:
+## Resumen :blue_book:
+
+* ### Descripción
+  Descripción
+
+* ### Problema Identificado
+
+* ### Solución
+
+* ### Arquitectura
+
+## Requerimientos :green_book:
 
 * ### Titulo 3
   Descripción
 
-* ### Titulo 3
+## Instalación :orange_book:
 
-## Stored Procedure :green_book:
+* ### Titulo 3
+  Descripción
+  
+## Configuración :blue_book:
+
+* ### Descripción
+  Descripción
+
+## Uso :green_book:
 
 * ### Titulo 3
   Descripción
 
-## Triggers :orange_book:
+## Contribución :orange_book:
 
 * ### Titulo 3
   Descripción
+  
+## Roadmap :blue_book:
+
+* ### Descripción
+  Descripción
+  
+
   
   [Mas información MD.PDF](https://github.com/visualmexico/customers/blob/master/markdown.pdf)
 
