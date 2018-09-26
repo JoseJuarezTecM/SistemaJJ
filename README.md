@@ -12,17 +12,13 @@
 
 * ### Problema Identificado
 
-  Uno de los problemas identificados en el proceso de observación y que supimos que se podía empezar a resolver de forma 
-  más rápida fue el como se lleva el registro de clientes y productos en varios archivos de excel los cuales son 
-  manipulados por varias personas, lo que hace de la información muy vulnerable, ya que si alguna de las personas borra o
-  modifica un archivo sin la prevía autorización de otro usuario, la información se pierde y esto conlleva a tener que
-  generar de nuevo dicho archivo, por ello se les sugirio la siguiente solución.
+  Uno de los problemas identificados en el proceso de observación y que supimos que se podía empezar a resolver de forma  más rápida fue el cómo se lleva el registro de clientes y productos en varios archivos de Excel los cuales son   manipulados por varias personas, lo que hace de la información muy vulnerable, ya que si alguna de las personas borra o modifica un archivo sin la previa autorización de otro usuario, la información se pierde y esto conlleva a tener que   generar de nuevo dicho archivo, por ello se les sugirió la siguiente solución.
 
 * ### Solución
 
- Se realizo un software en el cual la empresa prodrá registrar a sus clientes y sus productos, cualquier persona que lo 
- necesite podrá consultar dicha información y también podra dar de alta nuevos clientes y productos, pero este con la ventaja 
+ Se realizo un software en el cual la empresa podrá registrar a sus clientes y sus productos, cualquier persona que lo necesite podrá consultar dicha información y también podrá dar de alta nuevos clientes y productos, pero este con la ventaja 
  de que solo personal autorizado podrá borrar o modificar información en el sistema.
+
 
 * ### Arquitectura
 
@@ -55,22 +51,18 @@ Repositorio código fuente GitHub
  
 ## Instalación :orange_book:
 
-  El software tendrá un ejecutable que se podrá correr en cualquier sistema de computo, ya sea Windows, IOS, Linux, etc, ya que 
-  esta fabricado en código Java, cada usuario tendrá acceso al servidor donde estará instalado el programa, esto con el fin de
-  que todo lo que se modifique del sistema este en una sola base de datos.
+  El software tendrá un ejecutable que se podrá correr en cualquier sistema de cómputo, ya sea Windows, IOS, Linux, etc, ya que   este fabricado en código Java, cada usuario tendrá acceso al servidor donde estará instalado el programa, esto con el fin de   que todo lo que se modifique del sistema este en una sola base de datos.
   
-  Las pruebas se podrán ejecutar manualmente por cada usuario ya que cada uno de ellos tendrá el mismo ejecutable, esto con el 
-  fin de que cada usuario pueda practicar y entender como se maneja el sistema.
+  Las pruebas se podrán ejecutar manualmente por cada usuario ya que cada uno de ellos tendrá el mismo ejecutable, esto con el   fin de que cada usuario pueda practicar y entender cómo se maneja el sistema.
   
-  Como lo mencione anteriormente el sistema se ejecutara en un servidor de la empresa que se tiene con Amazon y todos los usuarios
-  que van a tener acceso a el se conectaran por medio de una VPN y del escritorio remoto, por supuesto las personas de sistemas se
-  encargarán de hacer dichas instalaciones y configuraciones en cada una de la maquinas de los usuarios.
+  Como lo mencione anteriormente el sistema se ejecutará en un servidor de la empresa que se tiene con Amazon y todos los usuarios   que van a tener acceso a él se conectaran por medio de una VPN y del escritorio remoto, por supuesto las personas de sistemas se   encargarán de hacer dichas instalaciones y configuraciones en cada una de las máquinas de los usuarios.
+
     
 ## Configuración :blue_book:
 
 * ### Configuración del producto (archivos de configuración)
   
-  Los archivos que se necesitaran son:
+    Los archivos que se necesitaran son:
   
   SQL Server versión 2008 o superior
   
@@ -86,7 +78,7 @@ Repositorio código fuente GitHub
   
   Java.
   
-  jdk1.8.0_152 o la ultima versión que se maneje.
+  jdk1.8.0_152 o la última versión que se maneje.
   
   ingresar al bin.
   
@@ -106,13 +98,14 @@ Repositorio código fuente GitHub
   
   Dar clic en editar.
   
-  Con la flechas del teclado, posicionarnos hasta el final colocar un punto y coma.
+  Con la flecha del teclado, posicionarnos hasta el final colocar un punto y coma.
   
   Pegamos la liga copiada anteriormente.
   
   Aceptar, Aceptar.
   
-  Abrir CMD y colocar lo siguiente javac -version, esto para revisar que se configuro correctamente el jdk.
+ Abrir CMD y colocar lo siguiente javac -version, esto para revisar que se configuro correctamente el jdk.
+
   
   
 ## Uso :green_book:
