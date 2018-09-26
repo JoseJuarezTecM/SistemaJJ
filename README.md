@@ -76,27 +76,45 @@ Repositorio código fuente GitHub
   Los archivos que se necesitaran son:
   
   SQL Server versión 2008 o superior
+  
   Java JDK, SDK y Environment.
   
   Se deberán instalar los tres Java y realizar la siguiente configuración.
   
   Equipo
+  
   Disco local c:
+  
   archivos de programa.
+  
   Java.
+  
   jdk1.8.0_152 o la ultima versión que se maneje.
+  
   ingresar al bin.
-  copiar liga que aparece en la parte superior.
+  
+  Copiar liga que aparece en la parte superior.
+  
   Ir a equipo.
+  
   Propiedades.
+  
   Configuración avanzada del sistema.
+  
   Variables de entorno.
-  variables del sistema.
-  buscar la que dice Path.
+  
+  Variables del sistema.
+  
+  Buscar la que dice Path.
+  
   Dar clic en editar.
+  
   Con la flechas del teclado, posicionarnos hasta el final colocar un punto y coma.
+  
   Pegamos la liga copiada anteriormente.
+  
   Aceptar, Aceptar.
+  
   Abrir CMD y colocar lo siguiente javac -version, esto para revisar que se configuro correctamente el jdk.
   
   
