@@ -102,7 +102,7 @@ Repositorio código fuente GitHub
   
 ## Uso :green_book:
 
-* ### Manual de usuarios
+## Manual de usuario :blue_book:
 
 * ### Pantalla de acceso.
 
@@ -150,7 +150,22 @@ El botón de Login te regresa automáticamente a la pantalla de Login.
 ## Roadmap :blue_book:
 
 * ### Descripción
-  Descripción
+ 
+ El sistema esta en un 20% de lo que sera su capacidad, en los proximos meses el área de desarrollo empezara a realizar mejoras 
+ al sismema tales como:
+ 
+ El sistema podrá generar ordenes de servicio.
+ 
+ En el sistema se podrán generar oportunidades para el área de ventas.
+ 
+ Las cuales una vez ganada la oportunidad se convertira en pedido.
+ 
+ Desde los pedidos el área administrativa podrá realizar la facturación.
+ 
+ El sistema se ira a un servicio Web para que se pueda usar también en equpos moviles como celulares, tabletas, etc.
+ 
+ El sistema en un futuro se deberá convertir en un CRM más profesional.
+ 
   
 
   
