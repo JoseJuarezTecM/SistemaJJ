@@ -8,10 +8,7 @@
 
 * ### Descripción
 
-  Se realizo un plan para implementar una mejora dentro de la empresa, en meses anteriores se llevo a cabo un minuciosa
-  observación de algunos de los procesos que se ejecutan en la empresa, en los cuales se puedo notar la falta de sisetmas
-  o softwares para la mejora de los mismos, por ello se le hicieron las observaciones a dirección, la cual autorizo poner
-  en marcha algunas de las mejoras propuestas por un servidor.
+  Se realizo un plan para implementar una mejora dentro de la empresa, en meses anteriores se llevó a cabo una minuciosa   observación de algunos de los procesos que se ejecutan en la empresa, en los cuales se puedo notar la falta de sistemas   o softwares para la mejora de los mismos, por ello se le hicieron las observaciones a dirección, la cual autorizo poner   en marcha algunas de las mejoras propuestas por un servidor.
 
 * ### Problema Identificado
 
@@ -169,8 +166,8 @@ El botón de Login te regresa automáticamente a la pantalla de Login.
 
 * ### Descripción
  
- El sistema esta en un 20% de lo que sera su capacidad, en los proximos meses el área de desarrollo empezara a realizar mejoras 
- al sismema tales como:
+ El sistema esta en un 20% de lo que sera su capacidad, en los próximos meses el área de desarrollo empezará a realizar mejoras 
+ al sistema tales como:
  
  El sistema podrá generar ordenes de servicio.
  
@@ -180,7 +177,7 @@ El botón de Login te regresa automáticamente a la pantalla de Login.
  
  Desde los pedidos el área administrativa podrá realizar la facturación.
  
- El sistema se ira a un servicio Web para que se pueda usar también en equpos moviles como celulares, tabletas, etc.
+ El sistema se ira a un servicio Web para que se pueda usar también en equipos móviles como celulares, tabletas, etc.
  
  El sistema en un futuro se deberá convertir en un CRM más profesional.
  
