@@ -46,7 +46,11 @@ Repositorio código fuente GitHub
  
   * ### Versión de Java
   
-  Version 8 Update 181
+  Version jdk1.7.0_67 
+  
+  La versión 8 no deja correr el programa.
+  
+  Más adelante se mejorará ese aspecto, una vez que este corriendo en el servidor de Amazon.
  
  
 ## Instalación :orange_book:
