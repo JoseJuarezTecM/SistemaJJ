@@ -212,7 +212,7 @@ public class Usuario extends javax.swing.JFrame {
         CMBmes.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" }));
         getContentPane().add(CMBmes, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 120, -1, -1));
 
-        CMBano.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "2014", "2015", "2016", "2017", "2018", "2019", "2020" }));
+        CMBano.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "2018", "2019", "2020" }));
         CMBano.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CMBanoActionPerformed(evt);
@@ -283,7 +283,7 @@ public class Usuario extends javax.swing.JFrame {
         CMDmesSalida.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" }));
         getContentPane().add(CMDmesSalida, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 270, -1, -1));
 
-        CMBanoSalida.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "2014", "2015", "2016", "2017", "2018", "2019", "2020" }));
+        CMBanoSalida.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "2018", "2019", "2020" }));
         getContentPane().add(CMBanoSalida, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 270, -1, -1));
 
         jLabel20.setForeground(new java.awt.Color(255, 255, 255));
